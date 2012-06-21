@@ -13,7 +13,7 @@ class dsh (
     }
 
     if $groups {
-        create_resources('dsh::groups', $groups)
+        create_resources('dsh::group', $groups)
     }
 }
 
