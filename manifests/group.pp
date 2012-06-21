@@ -1,10 +1,10 @@
 define dsh::group (
-    $name=$title,
+    $grpname=$title,
     $systems = []
     ) {
 
     
-    file { '/etc/dsh/group/all':
+    file { "/etc/dsh/group/${grpname}":
         ensure  => present,
         mode    => '0644',
         owner   => 'root',
