@@ -1,4 +1,6 @@
 class dsh::params {
-    $groups = []
+    $ensure     = present
+    $systems    = []
+    $groups     = {}
 }
 

@@ -1,5 +1,5 @@
 class dsh (
-    $ensure     = params_lookup('ennsure'),
+    $ensure     = params_lookup('ensure'),
     $systems    = params_lookup('systems'),
     $groups     = params_lookup('groups'),
     ) inherits dsh::params {
