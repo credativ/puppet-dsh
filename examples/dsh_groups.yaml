@@ -1,0 +1,10 @@
+dsh_ensure: true
+dsh_systems:
+   - testhost1
+   - testhost2
+   - testhost3
+dsh_groups:
+   management:
+    systems: [testhost1]
+   nodes:
+    systems: [testhost1, testhost2]

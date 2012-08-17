@@ -1,0 +1,24 @@
+= Puppet module: dsh
+
+This is a puppet module for keepalived based on the common credativ puppet
+modules layout (https://github.com/credativ/puppet-module-template)
+It will install dsh and manage group files.
+
+== Usage
+
+Most common use case for the module is to just include it
+and configure it in the hiera backend.
+
+So including it via the following line of code or in a ENC declaration
+(apart from proper configuration in hiera or top-scope variables)
+is usually enough:
+
+        class { 'keepalived': }
+
+== Configuration
+
+The module requires at least a list of systems which exists and shall
+be added to the 'all' group.
+
+Apart from that its possible to define a hash with all further groups
+to be added. See examples/dsh_groups.yaml how this works.
