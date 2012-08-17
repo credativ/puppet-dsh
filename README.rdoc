@@ -1,6 +1,6 @@
 = Puppet module: dsh
 
-This is a puppet module for keepalived based on the common credativ puppet
+This is a puppet module for dsh based on the common credativ puppet
 modules layout (https://github.com/credativ/puppet-module-template)
 It will install dsh and manage group files.
 
@@ -13,7 +13,7 @@ So including it via the following line of code or in a ENC declaration
 (apart from proper configuration in hiera or top-scope variables)
 is usually enough:
 
-        class { 'keepalived': }
+        class { 'dsh': }
 
 == Configuration
 
