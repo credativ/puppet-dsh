@@ -1,3 +1,4 @@
+# Define a dsh group file
 define dsh::group (
     $grpname=$title,
     $systems = []
