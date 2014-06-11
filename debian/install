@@ -1,0 +1,5 @@
+manifests   etc/puppet/modules/dsh
+templates   etc/puppet/modules/dsh
+LICENSE     usr/share/doc/puppet-module-dsh
+README*     usr/share/doc/puppet-module-dsh
+examples/*  usr/share/doc/puppet-module-dsh/examples
