@@ -1,3 +1,9 @@
+puppet-module-dsh (1.0.3) unstable; urgency=medium
+
+  * Add a hint where config comes from
+
+ -- Patrick Schoenfeld <patrick.schoenfeld@credativ.de>  Wed, 20 Aug 2014 09:36:11 +0200
+
 puppet-module-dsh (1.0.2) unstable; urgency=medium
 
   * Change module path
