@@ -25,7 +25,9 @@ class dsh (
     package { 'dsh':
         ensure  => $ensure
     }
-    
+
+
+    # FIXME: Should probably be a combination of all group systems?    
     dsh::group { 'all':
         systems => $systems
     }
