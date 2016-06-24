@@ -1,3 +1,11 @@
+puppet-module-dsh (1.0.4) UNRELEASED; urgency=medium
+
+  * Add/Update common puppet files
+  * Add tests
+  * Add FIXME
+
+ -- Patrick Schoenfeld <patrick.schoenfeld@credativ.de>  Fri, 24 Jun 2016 15:07:30 +0000
+
 puppet-module-dsh (1.0.3) unstable; urgency=medium
 
   * Add a hint where config comes from
